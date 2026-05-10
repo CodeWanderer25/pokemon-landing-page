@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.top-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.pokemon-logo{
+    width: 13%;
+}
+
+.menu{
+    padding-left: 50px;
+}
+.sun{
+    padding-right: 50px;
+}
+
+.outer{
+    background-color: #ed0000;
+    height: 65rem;
+    padding: 30px;
+    
+}
+
+.inner{
+    background-color: #fff;
+    height: 60rem;
+
+    border-radius: 20px
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.search{
+    width: 350px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 20px;
+    padding:18px 22px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(227, 215, 215, 0.05);
+    margin-left: 50px;
+
+}
+.search-box img{
+      color:#f4f0f0f0;
+      font-size:18px;
+      margin-left: 10px;
+    }
+
+.search input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color:#555;
+    font-size: 15px;
+}
+
+.right-section{
+    display: flex;
+    gap: 30px;
+    margin-right: 60px;
+    align-items: center;
+}
+.filter-pok{
+      background:white;
+      border:none;
+      padding:18px 24px;
+      border-radius:20px;
+
+      display:flex;
+      align-items:center;
+      gap:15px;
+
+      cursor:pointer;
+
+      box-shadow:
+      0 5px 15px rgba(0,0,0,0.05);
+
+      font-size:16px;
+      color:#444;
+      font-weight:600;
+}
+.arrow{
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.cards{
+    display: flex;
+    gap: 70px;
+    padding: 20px;
+}
+
+.top-part{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 15px 22px 0px 22px;
+
+}
+.mid-image{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.card1{
+    background-color: rgb(241, 241, 239);
+    width: 290px;
+    height: 435px;
+    border-radius: 27px;
+   
+
+}
+.meow { 
+    background: transparent;
+    display: flex;
+    z-index: 9;
+    width: 220px;
+    margin-left: 30px;
+}
+.leaf{
+    width: 20px;
+    margin-left: 24px;
+}
+
+.last {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last p {
+  background: #d7f8d7;
+
+  color: green;
+
+  padding: 8px 16px;
+
+  border-radius: 30px;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  margin-right: auto;
+}
+
+.last img:last-child {
+  width: 45px;
+
+  background: white;
+
+  padding: 10px;
+
+  border-radius: 50%;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+margin-top: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* FOOTER BOX */
+
+.footer-box {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+/* TOP PART */
+
+.top {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.top img {
+  width: 50px;
+
+  height: 50px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+
+  background: #f4f4ff;
+
+  padding: 10px;
+}
+
+.top h3 {
+  font-size: 20px;
+
+  color: #222;
+}
+
+/* PARAGRAPH */
+
+.footer-box p {
+  color: #666;
+
+  line-height: 1.6;
+
+  font-size: 15px;
+}
