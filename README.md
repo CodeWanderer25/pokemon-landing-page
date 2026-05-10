@@ -2,4 +2,4 @@
 
 ## Preview
 
-![Project Screenshot](./assets/pokemon.png)
+![Project Screenshot](./assests/pokemon.png)
